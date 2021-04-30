@@ -11,6 +11,7 @@ dim, n_grid, steps, dt = 3, 32, 25, 8e-4
 
 n_particles = n_grid**dim // 2**(dim - 1)
 dx = 1 / n_grid
+print(n_particles)
 
 p_rho = 1
 p_vol = (dx * 0.5)**2
